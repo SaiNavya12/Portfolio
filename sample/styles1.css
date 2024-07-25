@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#about {
+    background: #e2e2e2;
+}
+
+#skills {
+    background: #ccc;
+}
+
+#contact {
+    background: #b2b2b2;
+}
+#contact-info {
+    display: none; /* Hide contact info initially */
+    margin-top: 10px; /* Add some space */
+  }
+  
+  .hidden {
+    display: none; /* Hidden by default */
+  }
+  
+  #contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #contact-button:hover {
+    background-color: #0056b3;
+  }
+  
